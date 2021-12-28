@@ -5,10 +5,10 @@ A cross-platform prompt component for React Native.
 ## Installation
 
 ```
-$ npm install react-native-prompt --save
+$ npm i react-native-prompt-cross
 ```
 
-## Demo
+## Examples
 
 | iOS                 | Android                 |
 | ------------------- | ----------------------- |

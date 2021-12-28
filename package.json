@@ -1,6 +1,6 @@
 {
   "name": "react-native-prompt-cross",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native Prompt cross platform",
   "main": "./dist/index.js",
   "keywords": [
