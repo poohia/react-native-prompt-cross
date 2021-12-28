@@ -1,0 +1,43 @@
+{
+  "name": "react-native-prompt-cross",
+  "version": "1.0.0",
+  "description": "React Native Prompt cross platform",
+  "main": "./dist/index.js",
+  "keywords": [
+    "react-native",
+    "prompt"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/"
+  ],
+  "author": {
+    "name": "Jordan AZOULAY",
+    "email": "jazoulay@joazco.com",
+    "url": "https://github.com/poohia"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/poohia/react-native-prompt-cross.git"
+  },
+  "bugs": {
+    "url": "https://github.com/poohia/react-native-prompt-cross/issues"
+  },
+  "homepage": "https://github.com/poohia/react-native-prompt-cross",
+  "devDependencies": {
+    "@types/react-native": "^0.66.10",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@poohia/react-native-prompt-cross": "file:.yalc/@poohia/react-native-prompt-cross",
+    "react": "^17.0.2",
+    "react-native": "^0.66.4"
+  },
+  "scripts": {
+    "build-ts": "tsc; mv src/*.js dist/; cp src/index.ts dist/index.d.ts;cp src/*.ts* dist",
+    "build-yalc": "npm run build-ts; yalc publish --push --private"
+  }
+}
