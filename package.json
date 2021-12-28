@@ -1,6 +1,6 @@
 {
   "name": "react-native-prompt-cross",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "React Native Prompt cross platform",
   "main": "./dist/index.js",
   "keywords": [
@@ -29,12 +29,8 @@
   },
   "homepage": "https://github.com/poohia/react-native-prompt-cross",
   "devDependencies": {
-    "@types/react-native": "^0.66.10",
-    "typescript": "^4.5.4"
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-native": "^0.66.4"
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12"
   },
   "scripts": {
     "build-ts": "tsc; mv src/*.js dist/; cp src/index.ts dist/index.d.ts;cp src/*.ts* dist",
